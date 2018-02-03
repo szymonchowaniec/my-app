@@ -11,11 +11,12 @@ export class AppComponent {
   title = 'app';
   byColor = 'blue';
   currentPhone = '000000000';
-  galleryBig = '';
+  galleryBig ;
   myName = 'Szymon';
   today: number = Date.now();
   items: any [] = [0, 1, 2];
   access = false;
+  access2 = true;
   contacts: any [];
   images: string[];
 
